@@ -9,9 +9,10 @@ html {
 body {
   margin: 0;
   font-family:sans-serif;
-  background-color: #141316;
+  background-color: #111111;
   
 }
+
 
 /* HEADER */
 
@@ -20,21 +21,24 @@ header {
   width: 100%;
   height: 100px;
   background-color: #f524b5;
-  position: fixed;
+  
   padding: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  
-  
+}
+
+.logo-main {
+  padding-left: 10px;
 }
 
 a {
   font-family: sans-serif;
   color: black;
   padding: 50px;
+  margin: 10px;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
@@ -62,4 +66,82 @@ text-transform: uppercase;
 text-decoration: none;
 border: 1px solid black;
 background-color: #01ff15;
+}
+
+
+/* LANDING PAGE - MENU  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.button-work {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: white;
+  font-size: 150px;
+  text-decoration: none;
+  border: 0px;
+  width: auto;
+}
+
+.button-work:hover span {
+  display: none
+}
+
+.button-work:hover:before {
+  content: "Works";
+  font-weight: bold;
+  color: #01ff15;
+}
+
+.button-about-me {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: white;
+  font-size: 150px;
+  text-decoration: none;
+  border: 0px;
+  width: auto;
+}
+
+.button-about-me:hover span {
+  display: none;
+}
+
+.button-about-me:hover:before {
+  content: "About";
+  font-weight: bold;
+  color:#f524b5;
+}
+
+.button-contact-me {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: white;
+  font-size: 150px;
+  text-decoration: none;
+  border: 0px;
+  width: auto;
+}
+
+.button-contact-me:hover span {
+  display: none;
+}
+
+.button-contact-me:hover:before {
+  content: "Contact";
+  font-weight: bold;
+  color:#01ff15;
 }
