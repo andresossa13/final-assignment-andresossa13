@@ -15,6 +15,19 @@ body {
 
 /* LANDING PAGE - MENU  */
 
+/* AS LINKS ONLY  */
+
+/* nav {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  min-height: 100vh;
+  flex-direction: column;
+} */
+
+/* AS BUTTONS  */
+
 .container {
   display: flex;
   justify-content: center;
