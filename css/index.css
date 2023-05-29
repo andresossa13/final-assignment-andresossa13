@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:sans-serif;
+  background-color: #111111;
+  
+}
+
+/* LANDING PAGE - MENU  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.button-work {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: white;
+  font-size: 150px;
+  text-decoration: none;
+  border: 0px;
+  width: auto;
+}
+
+.button-work:hover span {
+  display: none;
+}
+
+.button-work:hover:before {
+  content: "Works";
+  font-weight: bold;
+  color: #01ff15;
+}
+
+.button-about-me {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: white;
+  font-size: 150px;
+  text-decoration: none;
+  border: 0px;
+  width: auto;
+}
+
+.button-about-me:hover span {
+  display: none;
+}
+
+.button-about-me:hover:before {
+  content: "About";
+  font-weight: bold;
+  color:#f524b5;
+}
+
+.button-contact-me {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: white;
+  font-size: 150px;
+  text-decoration: none;
+  border: 0px;
+  width: auto;
+}
+
+.button-contact-me:hover span {
+  display: none;
+}
+
+.button-contact-me:hover:before {
+  content: "Contact";
+  font-weight: bold;
+  color:#01ff15;
+}
