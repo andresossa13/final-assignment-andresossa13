@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family:sans-serif;
   background-color: #111111;
+  padding-top: 1px;
   
 }
 
@@ -20,128 +21,84 @@ header {
   margin: 0;
   width: 100%;
   height: 100px;
-  background-color: #f524b5;
+  background-color:#11111100;
+  position: fixed;
   
-  padding: 30px;
+  padding: 60px;
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
 }
 
-.logo-main {
-  padding-left: 10px;
-}
+/* WORKS GENERAL */
 
-a {
-  font-family: sans-serif;
-  color: black;
-  padding: 50px;
-  margin: 10px;
-  font-size: 16px;
-  text-transform: uppercase;
+a, a:after, a:visited {
   text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
 }
 
-a:hover {
-  color: black;
-}
+.works-container {
+padding-left: 60px;
+padding-top: 150px;
 
-.a-button {
-  font-family: sans-serif;
-  color: black;
-  padding: 50px;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 8px 16px;
-  width: auto;
-  border: 1px solid black;
-  border-radius: 0px;
-}
-
-.a-button:hover {
-text-transform: uppercase;
-text-decoration: none;
-border: 1px solid black;
-background-color: #01ff15;
 }
 
 
-/* LANDING PAGE - MENU  */
-
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
-
-.menu-options {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  
-}
-
-.button-work {
-  font-family: sans-serif;
-  background-color: #111111;
+.works-titles-white {
   color: white;
-  font-size: 150px;
-  text-decoration: none;
-  border: 0px;
-  width: auto;
 }
 
-.button-work:hover span {
-  display: none;
-}
 
-.button-work:hover:before {
-  content: "Works";
-  font-weight: bold;
-  color: #01ff15;
-}
-
-.button-about-me {
+h2 {
   font-family: sans-serif;
-  background-color: #111111;
-  color: white;
-  font-size: 150px;
-  text-decoration: none;
-  border: 0px;
-  width: auto;
+  line-height: 0%;
+  font-size: 70px;
+  text-transform: uppercase;
 }
 
-.button-about-me:hover span {
-  display: none;
+.works-para  {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 100%;
 }
 
-.button-about-me:hover:before {
-  content: "About";
-  font-weight: bold;
+.color-pink {
   color:#f524b5;
 }
 
-.button-contact-me {
-  font-family: sans-serif;
-  background-color: #111111;
-  color: white;
-  font-size: 150px;
-  text-decoration: none;
-  border: 0px;
-  width: auto;
+/* WORKS PROJECTS  */
+
+.works-text-pinn {
+  margin: 10vh 0;
+  width: 25%;
+  padding-bottom: 70px;
 }
 
-.button-contact-me:hover span {
-  display: none;
+.works-text-RayBan {
+  margin: 10vh 0;
+  width: 60%;
+  padding-bottom: 70px;
 }
 
-.button-contact-me:hover:before {
-  content: "Contact";
-  font-weight: bold;
-  color:#01ff15;
-} */
+.works-text-etro {
+  margin: 10vh 0;
+  width: 60%;
+  padding-bottom: 70px;
+}
+
+.works-text-leftovers {
+  margin: 10vh 0;
+  width: 60%;
+  padding-bottom: 70px;
+}
+
+.works-text-sane {
+  margin: 10vh 0;
+  width: 60%;
+  padding-bottom: 70px;
+}
