@@ -277,7 +277,6 @@ footer {
 }
 
 .project-intro {
-  
   padding-right: 40%;
   padding-top: 100px;
 } 
@@ -343,4 +342,43 @@ footer {
   flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+/* ABOUT ME  */
+
+.about-me-container {
+  padding-left: 160px;
+  padding-top: 160px;
+}
+
+.about-titles-white {
+  color: white;
+  margin: 0;
+}
+
+.about-intro {
+  padding-right: 40%;
+  padding-top: 100px;
+} 
+
+.about-copy-title {
+  padding-bottom: 30px;
+  font-size: 22px;
+  line-height: 150%;
+  color: white;
+}
+
+.about-copy-text {
+  line-height: 160%;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.cv-andres {
+  color: #f524b5;
+}
+
+.cv-andres:hover {
+  color: #f524b5;
+}
 }
