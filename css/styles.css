@@ -297,6 +297,35 @@ footer {
   padding-bottom: 20px;
 }
 
+/* SCROLL BAR */
+
+.rpi-progress-bar {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
+.rpi-progress-bar__position {
+  box-sizing: inherit;
+  height: 4px;
+  width: 100%;
+  background-color: #D1001D;
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition: -webkit-transform 50ms;
+  transition: -webkit-transform 50ms;
+  transition: transform 50ms;
+  transition: transform 50ms,-webkit-transform 50ms;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  will-change: transform;
+  position: relative;
+}
+
 /* PROJECTS FOOTER  */
 
 .return-top-project {
@@ -380,5 +409,4 @@ footer {
 
 .cv-andres:hover {
   color: #f524b5;
-}
 }
