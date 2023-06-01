@@ -40,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+ 
   
 }
 
@@ -51,6 +52,7 @@ body {
   text-decoration: none;
   border: 0px;
   width: auto;
+  cursor: pointer;
 }
 
 .button-work:hover span {
@@ -71,6 +73,7 @@ body {
   text-decoration: none;
   border: 0px;
   width: auto;
+  cursor: pointer;
 }
 
 .button-about-me:hover span {
@@ -91,6 +94,7 @@ body {
   text-decoration: none;
   border: 0px;
   width: auto;
+  cursor: pointer;
 }
 
 .button-contact-me:hover span {
