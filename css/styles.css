@@ -30,8 +30,8 @@ header {
   background-color:#11111100;
   position: fixed;
   
-  padding: 160px;
   padding-top: 80px;
+  padding-right: 160px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
