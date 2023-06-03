@@ -8,6 +8,7 @@
   <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
   <meta name="language" content="English">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Andrés Ossa Centanaro - About Me</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
@@ -77,3 +78,13 @@
 <script>
   gsap.from('.about-me-container', { duration: 2, opacity: 0 })
 </script>
+
+<script>
+  gsap.to(".about-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".about-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>
