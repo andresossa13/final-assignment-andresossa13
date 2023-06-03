@@ -197,6 +197,17 @@ h2 {
   
 }
 
+.sane:hover {
+  margin: 0;
+  background-image: url('/img/sane/sane-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
 /* FOOTER  */
 
 footer {
