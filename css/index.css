@@ -55,6 +55,15 @@ body {
   cursor: pointer;
 }
 
+/* HIDE SHORT TEXT BY DEFAULT  */
+.short-text {
+  display: none;
+}
+
+.short-text-2 {
+  display: none;
+}
+
 .button-work:hover span {
   display: none;
 }
@@ -105,4 +114,71 @@ body {
   content: "Contact";
   font-weight: bold;
   color:#01ff15;
+}
+
+
+/* MOBILE VIEWPORT  */
+
+@media (max-width: 480px) {
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  .menu-options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .button-work {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #111111;
+    font-size: 90px;
+    text-decoration: none;
+    border: 0px;
+    width: auto;
+  }
+
+  .button-about-me {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #111111;
+    font-size: 90px;
+    text-decoration: none;
+    border: 0px;
+    width: auto;
+  }
+
+  .button-contact-me {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #111111;
+    font-size: 90px;
+    text-decoration: none;
+    border: 0px;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .short-text {
+    display: inline-block;
+    color: #01ff15;
+  }
+
+  .full-text {
+  display: none;
+  }
+
+  .short-text-2 {
+    display: inline-block;
+    color: #f524b5;
+  }
+
+  .full-text-2 {
+    display: none;
+  }
+  
 }
