@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>BOGOTÁ GRAFFITI TOUR</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">BOGOTÁ GRAFFITI TOUR</h2>
+    <p class="works-subtitle-black"><strong>Beyond being a mere city tour</strong></p>
+  </div>
+
+<main>
+    <img src="img/graffiti/graffiti-cover.jpg" alt="graffiti-cover" width="100%" height="auto" class="hero-image-projects">
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+    The project involved designing a city guide for my hometown, focusing on four distinct elements that represent the essence of the city and can contribute to storytelling.
+    </p>
+    <p class="projects-copy-text">
+      Bogotá, the capital and largest city of Colombia, serves as a convergence point for people from all over the country and the world, resulting in a diverse and multicultural environment. The city is also renowned for its abundant greenery, with numerous parks and hills along its eastern border. Combining a rich historical background with a vibrant present, Bogotá offers a perfect blend of history, entertainment, delectable cuisine, cultural experiences, business opportunities, art, and much more.
+    </p>
+  </div>
+
+  <img src="img/graffiti/graffiti-map.jpg" alt="graffiti-map" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      Bogotá has emerged as a global reference in the realm of graffiti. Its remarkable murals and street art have positioned it among cities like Miami, Amsterdam, Rio de Janeiro, and Mexico City. Although the city’s relationship with graffiti has faced challenges in the past, the power of great art transcends negative labels. Today, Bogotá’s graffiti scene is far from being considered vandalism. It beautifully intertwines social and political commentary with a fusion of local and foreign styles, captivating observers with its ever-evolving nature.
+    </p> 
+  </div>
+
+  <img src="img/graffiti/graffiti-subjects.jpg" alt="graffiti-subjects" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      As you explore the streets of Bogotá, you will encounter stunning artwork that has transformed over time, seamlessly integrating itself into the fabric of daily life. This dynamic art form reflects the reality of the country, its political climate, and global affairs, making it a unique and thought-provoking experience. Beyond being a mere city tour, it serves as an alternative way of storytelling and understanding both the city and the country as a whole.
+    </p> 
+  </div>
+
+  <img src="img/graffiti/graffiti-covers.jpg" alt="graffiti-covers" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      My city guide prominently features a combination of real-life photographs and illustrated representations of the graffiti. These elements are central to its visual style, utilizing color gradients, shading, and special effects. <br><br> Graffiti, existing in public spaces, serves as a medium for spreading social criticisms while engaging in a dialogue with innovative forms of artistic expression. Consequently, images not only possess the power to communicate messages but also influence our perception of cultural creation. For graffiti artists, their murals serve as a means of expressing emotions and subtly rebelling against repressive authorities, making a strongstatement with their artistry.
+    </p> 
+  </div>
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+    <strong>Mentor:</strong> Davide Molinari <br> <strong>Year:</strong> 2023
+    </p> 
+    <p><strong>Categories</strong><br><br>Graphic Design<br>Identity Design<br>Storytelling</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 Andrés Ossa Centanaro. <br> All rights reserved
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>

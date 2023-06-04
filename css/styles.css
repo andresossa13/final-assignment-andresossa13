@@ -208,6 +208,61 @@ h2 {
   
 }
 
+.graffiti:hover {
+  margin: 0;
+  background-image: url('/img/graffiti/graffiti-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.t110:hover {
+  margin: 0;
+  background-image: url('/img/t110/t110-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.ch:hover {
+  margin: 0;
+  background-image: url('/img/ch/ch-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.book:hover {
+  margin: 0;
+  background-image: url('/img/book/book-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.identity:hover {
+  margin: 0;
+  background-image: url('/img/identity/identity-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
 /* FOOTER  */
 
 footer {
@@ -579,6 +634,62 @@ display: none;
   background-color:#111111;
   
 }
+
+.graffiti:hover {
+  margin: 0;
+  background-image: none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.t110:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.ch:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.book:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.identity:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
 
 /* FOOTER  */
 
@@ -974,6 +1085,63 @@ display: none;
   background-color:#111111;
   
 }
+
+.graffiti:hover {
+  margin: 0;
+  background-image: none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.t110:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.ch:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.book:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.identity:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+
 
 /* FOOTER  */
 

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>STUDIO T110</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">STUDIO T110</h2>
+    <p class="works-subtitle-black"><strong>Distribution is the beginning</strong></p>
+  </div>
+
+<main>
+    <img src="img/t110/t110-cover.jpg" alt="t110-cover" width="100%" height="auto" class="hero-image-projects">
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+    Welcome to Juan Carlos & Natalia's Home Office. This Couple sought to create a unique ambiance in their workspace, aiming for increased comfort during the pandemic.
+    </p>
+    <p class="projects-copy-text">
+      For this project, we carefully considered several factors. Our primary focus was on harnessing natural light and optimizing the visual perspective of the space. We also prioritized establishing smooth circulation between rooms and conducted a thorough analysis of storage requirements. Moreover, we took into account the couple’s lifestyle and personal preferences as key elements in the design.
+    </p>
+  </div>
+
+  <img src="img/t110/t110-row-1.jpg" alt="t110-row-1" width="1020px" height="674px" class="row-images">
+  <img src="img/t110/t110-row-2.jpg" alt="t110-row-2" width="1020px" height="674px" class="row-images">
+  
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      The outcome of the project surpassed the couple’s expectations. We incorporated a vertical shelf to elegantly showcase books, decorations, vines, and various plants. Additionally, we created a dedicated area for displaying wine. To enhance the overall design, we strategically implemented room divisions and gradually reduced the visual field towards the bedroom. Furthermore, we crafted two separate work areas with a seamless and continuous surface. These areas feature shared drawers that effectively divide the two spaces.
+    </p> 
+  </div>
+
+  <img src="img/t110/t110-wines.jpg" alt="airport" width="1020px" height="674px" class="project-image">
+
+
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+     <strong>Year:</strong> 2021
+    </p> 
+    <p><strong>Categories</strong><br><br>Industrial Design<br>Product Design<br>Interior Design</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 Andrés Ossa Centanaro. <br> All rights reserved
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>
