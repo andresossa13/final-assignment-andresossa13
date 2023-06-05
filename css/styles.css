@@ -421,6 +421,7 @@ footer {
 .about-titles-white {
   color: white;
   margin: 0;
+  padding-bottom: 60px;
 }
 
 .about-intro {
