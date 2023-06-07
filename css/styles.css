@@ -51,7 +51,7 @@ header {
 a, a:after, a:visited {
   text-decoration: none;
   cursor: pointer;
-  color:#f524b5;
+  color:#00fff6;
 }
 
 .works-container {
@@ -452,7 +452,16 @@ footer {
 }
 
 .contact-info {
-  color: #f524b5;
+  color: #00fff6;
+}
+
+.contact-andres {
+  color: #00fff6;
+  text-decoration:underline;
+}
+
+.contact-andres:hover {
+  color: #00fff6;
 }
 
 
@@ -488,7 +497,7 @@ header {
 
 a, a:after, a:visited {
   text-decoration: none;
-  color:#f524b5;
+  color:#00fff6;
 }
 
 .works-container {
@@ -903,6 +912,15 @@ video {
   padding-bottom: 40px;
 }
 
+.contact-andres {
+  color: #00fff6;
+  text-decoration:underline;
+}
+
+.contact-andres:hover {
+  color: #00fff6;
+}
+
 
 }
 
@@ -937,7 +955,7 @@ header {
 
 a, a:after, a:visited {
   text-decoration: none;
-  color:#f524b5;
+  color:#00fff6;
 }
 
 .works-container {
@@ -1352,6 +1370,15 @@ video {
 .contact-info {
   color: #f524b5;
   padding-bottom: 40px;
+}
+
+.contact-andres {
+  color: #00fff6;
+  text-decoration:underline;
+}
+
+.contact-andres:hover {
+  color: #00fff6;
 }
 
 
