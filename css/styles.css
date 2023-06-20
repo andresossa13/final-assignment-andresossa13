@@ -131,6 +131,18 @@ h2 {
   
 }
 
+.oakley:hover {
+  margin: 0;
+  background-image: url('/img/oakley/oakley-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+
 .leftovers:hover {
   margin: 0;
   background-image: url('/img/leftovers/letftovers-banner.png');
@@ -567,6 +579,18 @@ display: none;
   background-color:#111111;
   
 }
+
+.oakley:hover {
+  margin: 0;
+  background-image: none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
 
 .leftovers:hover {
   margin: 0;
@@ -1027,6 +1051,18 @@ display: none;
   background-color:#111111;
   
 }
+
+.oakley:hover {
+  margin: 0;
+  background-image: none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
 
 .leftovers:hover {
   margin: 0;
