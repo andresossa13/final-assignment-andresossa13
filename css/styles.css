@@ -176,7 +176,18 @@ h2 {
   
 }
 
-.posters:hover {
+.crai:hover {
+  margin: 0;
+  background-image: url('/img/crai/banner-crai.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+/* .posters:hover {
   margin: 0;
   background-image: url('/img/posters/posters-banner.jpg');
   height: 200px;
@@ -185,7 +196,7 @@ h2 {
   background-size: cover;
   background-color:#111111;
   
-}
+} */
 
 .imaginatela:hover {
   margin: 0;
@@ -625,7 +636,7 @@ display: none;
   
 }
 
-.posters:hover {
+.crai:hover {
   margin: 0;
   background-image:none;
   height: 200px;
@@ -635,6 +646,17 @@ display: none;
   background-color:#111111;
   
 }
+
+/* .posters:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+} */
 
 .imaginatela:hover {
   margin: 0;
@@ -1097,7 +1119,7 @@ display: none;
   
 }
 
-.posters:hover {
+.crai:hover {
   margin: 0;
   background-image:none;
   height: 200px;
@@ -1107,6 +1129,17 @@ display: none;
   background-color:#111111;
   
 }
+
+/* .posters:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+} */
 
 .imaginatela:hover {
   margin: 0;
