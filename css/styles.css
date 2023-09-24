@@ -365,6 +365,11 @@ footer {
   padding-top: 100px;
 }
 
+.hero-video-projects {
+  margin: 0;
+  padding-top: 100px;
+}
+
 .project-intro {
   padding-right: 40%;
   padding-top: 100px;
@@ -826,6 +831,11 @@ footer {
 }
 
 .hero-image-projects {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.hero-video-projects {
   margin: 0;
   padding-top: 30px;
 }
@@ -1312,6 +1322,12 @@ footer {
   margin: 0;
   padding-top: 30px;
 }
+
+.hero-video-projects {
+  margin: 0;
+  padding-top: 30px;
+}
+
 
 .project-image {
   width: 100%;
