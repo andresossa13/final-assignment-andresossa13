@@ -109,6 +109,19 @@ h2 {
   
 }
 
+.napoli:hover {
+  margin: 0;
+  background-image: url('/img/napoli/banner-napoli.jpg');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+
+
 .rayban:hover {
   margin: 0;
   background-image: url('/img/rayban/ray-banner.jpg');
@@ -564,6 +577,17 @@ display: none;
 /* WORKS  */
 
 .pinn:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.napoli:hover {
   margin: 0;
   background-image:none;
   height: 200px;
@@ -1052,6 +1076,17 @@ display: none;
 /* WORKS  */
 
 .pinn:hover {
+  margin: 0;
+  background-image:none;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#111111;
+  
+}
+
+.napoli:hover {
   margin: 0;
   background-image:none;
   height: 200px;
