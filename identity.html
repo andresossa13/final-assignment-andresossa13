@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>PERSONAL IDENTITY</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img loading="lazy"  src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">PERSONAL IDENTITY</h2>
+    <p class="works-subtitle-black"><strong>Myself through design</strong></p>
+  </div>
+
+<main>
+    <img loading="lazy"  src="img/identity/identity-cover.jpg" alt="identity-cover" width="100%" height="auto" class="hero-image-projects">
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+    Creating one's identity can be an incredibly challenging task, especially for designers. Despite possessing a keen eye for aesthetics and a deep understandind of effective design principles, we often struggle when it comes to designing for ourselves. Few challenges can be as frustrating as attempting to define and craft our own identity.
+    </p>
+    <p class="projects-copy-text">
+      To tackle this challenge, I approached it as if I were working for a client. I wrote a comprehensive brief with specific objectives and identified a set of tools that would effectively promote both myself and my work. What sets me apart and makes me suitable for any task, project, or job is my unique method, which encompasses my working style, skills, personality, taste, interests, and experience.
+    </p>
+  </div>
+
+  <img loading="lazy"  src="img/identity/identity-cap.jpg" alt="identity-cap" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      Right from the beginning, I knew that my identity should be treated like any other design I have created, maintaining consistency across all applications. Elements such as typography, shapes, and colors played a crucial role in representing my concept, method, and myself. 
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/identity/identity-shoe.jpg" alt="identity-shoe" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      The initial step involved designing the logo, which served as the foundation for defining a cohesive system and selecting the tools through which my identity would be presented and communicated.
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/identity/identity-card-2.jpg" alt="identity-card-2" width="1020px" height="674px" class="row-images">
+  <img loading="lazy"  src="img/identity/identity-card-3.jpg" alt="identity-card-3" width="1020px" height="674px" class="row-images">
+  <img loading="lazy"  src="img/identity/identity-card-1.jpg" alt="identity-card-1" width="1020px" height="674px" class="row-images">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      This project holds great significance to me as it reflects how I perceive myself through design and how I want you, the reader, to perceive my personal identity.
+    </p> 
+  </div>
+
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+    <strong>Year:</strong> 2023
+    </p> 
+    <p><strong>Categories</strong><br><br>Branding<br>Graphic Design<br>Identity Design</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 All rights reserved <br> Website Coded & Designed by Andrés Ossa Centanaro
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>

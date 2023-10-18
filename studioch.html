@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>STUDIO CH</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img loading="lazy"  src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">STUDIO CH</h2>
+    <p class="works-subtitle-black"><strong>A harmonious living environment</strong></p>
+  </div>
+
+<main>
+    <img loading="lazy"  src="img/ch/ch-cover.jpg" alt="ch-cover" width="100%" height="auto" class="hero-image-projects">
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+    Welcome to the Cuesta Hurtado family project, a young couple who, with the addition of a new member to their family, are continuing to establish their cozy home.
+    </p>
+    <p class="projects-copy-text">
+      This family firmly believes that each space within their home serves a primary function, and although occasionally utilized for multiple purposes simultaneously, it is crucial to prioritize and amplify its intended purpose to foster a harmonious living environment.
+    </p>
+  </div>
+
+  <img loading="lazy"  src="img/ch/ch-desks.jpg" alt="ch-desks" width="1020px" height="674px" class="row-images">
+  <img loading="lazy"  src="img/ch/ch-desk.jpg" alt="ch-desk" width="1020px" height="674px" class="row-images">
+  
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      Considering their belief, our utmost priority was to design a versatile workspace that offers the option of independent or combined desks. Furthermore, we incorporated dedicated storage cabinets and compartments for electrical cables and extensions. Lastly, we aimed to create functional and open surfaces to showcase books and decorations.
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/ch/ch-drawers.jpg" alt="ch-drawers" width="1020px" height="674px" class="row-images">
+  <img loading="lazy"  src="img/ch/ch-stand.jpg" alt="ch-stand" width="1020px" height="674px" class="row-images">
+
+
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+     <strong>Year:</strong> 2021
+    </p> 
+    <p><strong>Categories</strong><br><br>Industrial Design<br>Product Design<br>Interior Design</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 All rights reserved <br> Website Coded & Designed by Andrés Ossa Centanaro
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>

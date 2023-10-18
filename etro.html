@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>ETRO</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img loading="lazy"  src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">ETRO</h2>
+    <p class="works-subtitle-black"><strong>Product Sizing for Luxury eCommerce</strong></p>
+  </div>
+
+<main>
+    <img loading="lazy"  src="img/etro/etro-cover.jpg" alt="hero-etro" width="100%" height="auto" class="hero-image-projects">
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+    Through extensive research and understanding of the challenges in digital retail, my goal was to devise a successful strategy that would simplify the process of selecting sizes and colors, in order to help costumers understand how garments fit correctly.
+    <p class="projects-copy-text">
+      This involved analyzing and rethinking the way product sizes are displayed and explained, ultimately making it easier for customers to make their choices. The project presented a challenge in exploring innovative ways to visualize products and enhance the overall digital experience.
+    </p>
+  </div>
+
+  <img loading="lazy"  src="img/etro/main-etro.jpg" alt="main-etro" width="1020px" height="auto" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      After conducting thorough research on the brand, its customers, purchasing processes, and main competitors, I focused on understanding its values and digital presence. Furthermore, I had the opportunity to visit one of their primary boutiques situated in the fashion center of Milan. During my visit, I interviewed two saleswomen—one responsible for physical sales and the other for online sales. The final proposal to the client consisted of three parts. The first part aimed to draw viewers’ attention to the most important elements, messages, and calls to action. Introducing the option to change the size and color of the product directly from the landing page, along with two new buttons that lead to the new proposals I developed specifically for the brand.
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/etro/etro-screens.jpg" alt="etro-screens" width="1020px" height="auto" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      Fit Visualization – An interactive guide that provides customers with information about different Etro garments. By completing a series of questions, the software presents various garments tailored to the customer’s body type as represented in the guide.
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/etro/colors-combi.jpg" alt="etro-color" width="1020px" height="auto" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      Color and Outfit Variations – This section assists customers in matching the selected garment with different available color variations. It also allows them to combine it with other etro garments to create unique outfits.
+      <br><br><br>
+      <strong>Please wait a few seconds for the video to begin playing:</strong>
+    </p> 
+  </div>
+  
+
+  <video width="1020px" height="674px" autoplay muted loop>
+  <source src="img/etro/Video-etro.mp4" type="video/mp4" class="project-video">
+  </video>
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      <strong>Client:</strong> ETRO
+      <br>
+    <!-- <strong>Mentors:</strong> Andy Scupelli & Beatrice Bentivoglio <br> -->
+     <strong>Year:</strong> 2023
+    </p> 
+    <p><strong>Categories</strong><br><br>E-commerce<br>UX/UI Design<br>Prototyping</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 All rights reserved <br> Website Coded & Designed by Andrés Ossa Centanaro
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>

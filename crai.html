@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>CRAI SUPERMARKET</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img loading="lazy"  src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">CRAI SUPERMARKET</h2>
+    <p class="works-subtitle-black"><strong>Redesigning the new general line website</strong></p>
+  </div>
+
+<main>
+  <video class="hero-video-projects" width="100%" height="auto" autoplay muted loop>
+    <source src="img/crai/crai-cover-video.mp4" type="video/mp4">
+    </video>
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+      The objective was to develop a fresh design for the landing page of the upcoming Crai Supermarkets' general line, as well as for the individual product or product group pages. The aim was to highlight the enhancements in the new private label design, improve the perception of brand quality, and enhance its overall attractiveness. This was intended to drive a higher preference for the retail brand and foster greater shopper loyalty towards the store.
+    </p>
+    <p class="projects-copy-text">
+      The client had the expectation for us to focus on the concept of "La Dolce Vita," which serves as a synthesis of one of the most cherished and nostalgic periods in recent Italian history (the 50s and 60s). This era was characterized by a lifestyle filled with joy, carefree attitudes, and glamour. Incorporating this concept would align well with the current trend of nostalgia and would be in harmony with the brand's positioning.
+    </p>
+  </div>
+
+  <img loading="lazy"  src="img/crai/crai-web-plp.jpg" alt="crai-web-plp" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      The new proposal has the objective of capturing the consumer's attention while effectively conveying the attributes and values of the product in alignment with various product categories. This endeavor seeks to strengthen Crai's image through a tailored storytelling approach.
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/crai/crai-web-pdp.jpg" alt="crai-web-pdp" width="1020px" height="674px" class="row-images">
+
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      We placed significant emphasis on the fact that Crai is currently introducing a fresh strategy founded on a set of values that customers can readily recognize and relate to. The main goal is to establish unique grounds for customer preference and distinguish themselves from competitors.
+    </p> 
+  </div>
+
+  <img loading="lazy"  src="img/crai/crai-web-feast.jpg" alt="crai-web-feast" width="1020px" height="674px" class="project-image">
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+    Within this context, private labels offer Crai a valuable opportunity to foster preference and cultivate loyalty. They serve as a sort of "experimental phase" in the interaction between customers and the brand. Our intention is to further enhance this connection by adding supplementary value content.
+    </p> 
+  </div>
+
+  <video width="1020px" height="674px" autoplay muted loop>
+  <source src="img/crai/video-crai-new.mp4" type="video/mp4" class="project-video">
+  </video>
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      <strong>Client:</strong> CRAI Supermarkets
+    <br>
+    <strong>Especial thanks to the packaging team: </strong> Cara Hausdorf, Elissa Guggiari and Shani Rupp  <br> <strong>Year:</strong> 2023
+    </p> 
+    <p><strong>Categories</strong><br><br>Branding<br>UX/UI Design<br>Prototyping<br>Web Design</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 All rights reserved <br> Website Coded & Designed by Andrés Ossa Centanaro
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>

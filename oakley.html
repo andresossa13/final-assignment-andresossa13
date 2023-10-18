@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>OAKLEY</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body class="projects-body">
+  
+  <!-- HEADER -->
+  <header>
+    <a href="works.html" class="logo-main">
+      <img loading="lazy"  src="img/logo-white-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <!-- CONTENT  -->
+<div class="project-container">
+  <div class="title-subtitle">
+    <h2 class="works-titles-black">OAKLEY</h2>
+    <p class="works-subtitle-black"><strong>Optimizing the user interface</strong></p>
+  </div>
+
+<main>
+    <img loading="lazy"  src="img/oakley/oakley-cover.jpg" alt="hero-oakley" width="100%" height="auto" class="hero-image-projects">
+
+  <div class="project-intro">
+    <p class="projects-copy-title">
+      The project centered around the task of enriching the user experience on the mobile version of the Oakley US website.
+    </p>
+    <p class="projects-copy-text">
+      After conducting multiple user testing sessions on the Oakley website's functionality, we identified common pain points in users' behavior as they navigate through the site with the specific goal of purchasing a product from the home page. Our objective was to pinpoint problems, gain insights, and identify opportunities to enhance the user's journey towards the main goal. Based on the research findings, we determined specific areas in the journey that required improvement, including the home page, discovery page, product listing page, and product detail page prior to adding the product to the cart.
+    </p>
+  </div>
+
+  <img loading="lazy"  src="img/oakley/oakley-mbappe.jpg" alt="oakley-1" width="1020px" height="auto" class="project-image">
+  
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      The subsequent phase of the project involved creating prototypes to address our defined goals. Goal number one focused on locating either screen-use or gaming glasses using the main menu.
+    </p> 
+  </div>
+  
+  <img loading="lazy"  src="img/oakley/oakley-1.jpg" alt="oakley-1" width="1020px" height="600px" class="project-image">
+  
+  <div class="project-intro">
+    
+    <p class="projects-copy-text">
+      Goal number two centered around the Discovery page, where users were required to find all blue light screen glasses and select products from the NXTLVL or Holbrook collections.
+    </p> 
+  </div>
+  
+  <img loading="lazy"  src="img/oakley/oakley-menu.jpg" alt="oakley-menu" width="1020px" height="600px" class="project-image">
+  
+  
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      The final goal involved users navigating from the previously mentioned product detail pages (NXTLVL and Holbrook) to explore similar products and filter glasses with Polarized Lenses.
+    </p> 
+  </div>
+  
+  <img loading="lazy"  src="img/oakley/oakley-pdp.jpg" alt="plp page" width="1020px" height="600px" class="row-images">
+
+  
+  <div class="project-intro">
+    <p class="projects-copy-text">
+    Once the prototypes were finalized, we proceeded to test them with actual users to determine if our solutions worked in a real-world setting and to gather additional feedback that could be implemented to enhance accessibility for all types of users.
+    <br><br><br>
+    <strong>Please wait a few seconds for the video to begin playing:</strong>
+    </p> 
+  </div>
+  
+
+  <video width="1020px" height="674px" autoplay muted loop>
+  <source src="img/oakley/oakley.mp4" type="video/mp4" class="project-video">
+  </video>
+
+  <div class="project-intro">
+    <p class="projects-copy-text">
+      <strong>Client:</strong> Oakley
+      <br>
+    <!-- <strong>Mentors:</strong> Marco Catani & Michele Petrone <br>  -->
+    <strong>Year:</strong> 2023
+    </p> 
+    <p><strong>Categories</strong><br><br>E-commerce<br>UX/UI Design<br>Prototyping</p>
+
+  </div>
+</main>
+
+<footer class="project-footer">
+  <p>
+    <span>©</span>
+    2023 All rights reserved <br> Website Coded & Designed by Andrés Ossa Centanaro
+  </p>
+  <a href="#" class="return-top-project">
+    <span class="arrow-project">↑</span>
+  </a>
+</footer>
+
+
+</div>
+</body>
+</html>
+
+<script>
+gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.to(".projects-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".projects-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>
+

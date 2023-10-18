@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Andrés Ossa Centanaro Portfolio">
+  <meta name="description" content="I create captivating and functional designs">
+  <meta name="keywords" content="Andres Ossa, Andres Ossa Centanaro, portfolio, ux, ui, graphic, design, branding, industrial, product, experience, freelance, interface, digital, front-end">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Andrés Ossa Centanaro - About Me</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="logo-main">
+      <img loading="lazy"  src="img/logo-pink-black.png" alt="logo-header" width="123px" height="35.2px">
+    </a>
+  </header>
+
+  <main>
+    <section class="about-me-section">
+      <div class="about-me-container">
+        <h2 class="about-titles-white">I create captivating and<br>functional designs.</h2>
+
+        <img loading="lazy"  src="img/Io.jpg" alt="Io" width="1020px" height="674px" class="project-image">
+           
+        <div class="about-intro">
+          <p class="about-copy-title">
+           <strong>Andrés Ossa Centanaro</strong>
+          </p>
+          
+          <p class="about-copy-text">
+            Welcome to my portfolio website. I'm a passionate Industrial and Digital & Web Designer based in Milan, with a keen eye for aesthetic detail and a drive for innovation. With a diverse skill set that spans both physical and digital domains, I bring a unique perspective. With a strong foundation in industrial design, I implement a blend of creativity and technical principles to my work. My journey as a multidisciplinary designer has allowed me to work on a wide range of projects, from conceptualizing products and services to crafting engaging digital and web experiences. I am dedicated to crafting solutions that inspire and leave a lasting impact; I believe in the power of design to shape the way we interact with the world.  
+            <br><br>
+            <strong>Point of view</strong>
+            <br><br>
+            As a Design Management Specialist, I have a strong proficiency in organizing and leading management processes, as well as aiming for innovation and product development. In my view, it is crucial to establish interdisciplinary teams that promote the collaborative construction of design knowledge for projects or companies, drawing from a wide range of expertise.
+            <br><br>
+            My perspective on design management and its impact on organizations is centered around strengthening the relationship between design and business, while cultivating a business culture that embraces design thinking. By integrating strategic design processes within organizations, one can analyze the interplay of current and potential phenomena that inform strategic decision making.
+            <br><br>
+            <strong>Personal life</strong>
+            <br><br>
+            I was born in Bogotá, Colombia, and from a young age, I displayed a keen interest in arts and technology. This interest, particularly in handcrafted objects and digital and electronic devices, gradually developed into a passion throughout my high school and bachelor's years.
+            I am an avid sports enthusiast, having practiced football, basketball, volleyball, and cycling since my childhood. In addition, I consider myself a dedicated follower of technology and pop culture. I actively keep up with the latest tech device releases in the market and indulge in various movies, books, and series that capture my interest as a hobby. Furthermore, during my free time, I thoroughly enjoy playing video games.
+            <br><br>
+            <strong>Curriculum</strong>
+            <br><br>
+            You can read more about my experience, skills, education and more in the PDF attached bellow. 
+            <br><br>
+            <a class="cv-andres" href="https://drive.google.com/file/d/16Oaemr-1qMtJFzeC1ua6KmxHGuW0xgg3/view?usp=sharing" target="_blank">Click here to see my Curriculum (PDF 256 KB)</a>
+          </p>
+         
+        </div>
+       
+  
+        
+  
+      <footer>
+        <p>
+          <span>©</span>
+          2023 All rights reserved <br> Website Coded & Designed by Andrés Ossa Centanaro
+        </p>
+        <a href="#" class="return-top">
+          <span class="arrow">↑</span>
+        </a>
+      </footer>
+  
+      </div>
+    </section>
+  </main>
+  
+</body>
+</html>
+
+<script>
+ gsap.from('header', { duration: 1, y: '-100%', ease: 'bounce'})
+</script>
+
+<script>
+  gsap.from('.about-me-container', { duration: 2, opacity: 0 })
+</script>
+
+<script>
+  gsap.to(".about-copy-title", { color: "#f524b5", delay: 1, duration: 1,
+  scrollTrigger: {
+  trigger: ".about-copy-title",
+  // markers: true,
+  scrub: true,
+  } 
+  })
+  </script>
